@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ma Belle Page Web</title>
+  <title>Mon CV</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
     }
-    
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
     h1 {
-      margin: 0;
-    }
-    
-    main {
-      max-width: 800px;
-      margin: 20px auto;
-      background-color: #fff;
-      padding: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
       text-align: center;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      margin-bottom: 10px;
+    }
+    .section p {
+      margin-bottom: 5px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Ma Belle Page Web</h1>
-  </header>
+  <h1>Mon CV</h1>
   
-  <main>
-    <h2>Contenu principal</h2>
-    <p>Ceci est un exemple de contenu principal.</p>
-  </main>
+  <div class="section">
+    <h2>Informations personnelles</h2>
+    <p>Nom : John Doe</p>
+    <p>Adresse : 123 Rue des Exemples, Ville, Pays</p>
+    <p>Téléphone : 0123456789</p>
+    <p>Email : john.doe@example.com</p>
+  </div>
   
-  <footer>
-    <p>&copy; 2023 Ma Belle Page Web. Tous droits réservés.</p>
-  </footer>
+  <div class="section">
+    <h2>Formation</h2>
+    <p>Année - Diplôme obtenu - Établissement</p>
+    <p>Année - Diplôme obtenu - Établissement</p>
+  </div>
+  
+  <div class="section">
+    <h2>Expérience professionnelle</h2>
+    <p>Année - Poste - Entreprise</p>
+    <p>Année - Poste - Entreprise</p>
+  </div>
+  
+  <div class="section">
+    <h2>Compétences</h2>
+    <ul>
+      <li>Compétence 1</li>
+      <li>Compétence 2</li>
+      <li>Compétence 3</li>
+    </ul>
+  </div>
 </body>
 </html>
